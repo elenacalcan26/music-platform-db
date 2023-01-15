@@ -1,0 +1,241 @@
+-- insert users
+
+INSERT INTO Users VALUES ('christina_ich', 'Christina Ich', 'chrsich@gmail.com');
+INSERT INTO Users VALUES ('calcanul', 'Elena', 'elena.calcan26@gmail.com');
+INSERT INTO Users VALUES ('ThisIsElonMusk', 'Elon Musk', 'elon.musk@tesla.com');
+INSERT INTO Users VALUES ('david1', 'David Popescu', 'popescu.david@gmail.com');
+INSERT INTO Users VALUES ('alinap', 'Alina', 'alina.fitness@gmail.com');
+INSERT INTO Users VALUES ('robert32', 'Robert Pop', 'robert1234@yahoo.com');
+
+
+-- insert artists
+
+INSERT INTO Artists VALUES (1, 'Halsey');
+INSERT INTO Artists VALUES (2, 'The Weeknd');
+INSERT INTO Artists VALUES (3, 'Lady Gaga');
+INSERT INTO Artists VALUES (4, 'Britney Spears');
+INSERT INTO Artists VALUES (5, 'Kendrick Lamar');
+INSERT INTO Artists VALUES (6, 'The Pussycat Dolls');
+INSERT INTO Artists VALUES (7, '2Pac');
+INSERT INTO Artists VALUES (8, 'Mr. President');
+INSERT INTO Artists VALUES (9, 'A.S.I.A');
+INSERT INTO Artists VALUES (10, 'Enrique Iglesias');
+INSERT INTO Artists VALUES (11, 'INNA');
+INSERT INTO Artists VALUES (12, 'Puya');
+INSERT INTO Artists VALUES (13, 'Doja Cat');
+INSERT INTO Artists VALUES (14, 'Soundgarden');
+INSERT INTO Artists VALUES (15, 'Nicki Minaj');
+INSERT INTO Artists VALUES (16, 'Nelly Furtado');
+INSERT INTO Artists VALUES (17, 'Far East Movement');
+INSERT INTO Artists VALUES (18, 'Metro Boomin');
+
+-- insert Genres
+INSERT INTO Genres VALUES (1, 'Pop');
+INSERT INTO Genres VALUES (2, 'R&B\Soul');
+INSERT INTO Genres VALUES (3, 'Hip-Hop');
+INSERT INTO Genres VALUES (4, 'Rock');
+INSERT INTO Genres VALUES (5, 'EDM');
+INSERT INTO Genres VALUES (6, 'Alternative')
+
+-- insert albums
+INSERT INTO Albums VALUES (1, 'The Fame', 1, 3, '2008-01-01', 'Interscope Records');
+INSERT INTO Albums VALUES (2, '...Baby One More Time', 1, 4, '1999-01-12', 'Jive Records');
+INSERT INTO Albums VALUES (3, 'In The Zone', 1, 4, '2003-11-13', 'Jive Records');
+INSERT INTO Albums VALUES (4, 'Free Wired', 5, 17, '2010-01-01', 'Cherrytree Records');
+INSERT INTO Albums VALUES (5, 'DAMN.', 3, 5, '2017-04-14', 'Top Dawg Entertainment');
+INSERT INTO Albums VALUES (6, 'Loose', 1, 16, '2006-01-01', 'Geffen Records');
+INSERT INTO Albums VALUES (7, 'The Fame Monster', 1, 3, '2009-11-18', 'Interscope Records');
+INSERT INTO Albums VALUES (8, 'After Hours', 2, 2, '2020-03-20', 'XO');
+INSERT INTO Albums VALUES (9, 'PCD', 1, 6, '2005-09-12', 'A&M Records');
+INSERT INTO Albums VALUES (10, 'Romanisme', 3, 12, '2010-04-30', 'MediaPro Music');
+INSERT INTO Albums VALUES (11, 'Hot', 5, 11, '2010-04-19', 'Roton');
+INSERT INTO Albums VALUES (12, 'Oops!... I Did It Again', 1, 4, '2000-05-16', 'Jive Records');
+INSERT INTO Albums VALUES (13, 'BADLANDS', 1, 1, '2015-08-28', 'Astralwerks');
+INSERT INTO Albums VALUES (14, 'Manic', 1, 1, '2020-01-17', 'Capitol Records');
+INSERT INTO Albums VALUES (15, 'All Eyez On Me', 3, 7, '1996-02-13', 'Death Row Records');
+INSERT INTO Albums VALUES (16, 'Me Against The World', 3, 7, '1995-03-14', 'Out Da Gutta Records');
+INSERT INTO Albums VALUES (17, 'Hot Pink', 2, 13, '2019-11-07', 'RCA Records');
+INSERT INTO Albums VALUES (18, 'If I Can t Have Love, I Want Power', 1, 1, '2021-08-27', 'Capitol Records');
+INSERT INTO Albums VALUES (19, 'Superunknown', 6, 14, '1994-03-09', 'A&M Records');
+INSERT INTO Albums VALUES (20, 'Dawn FM', 1, 2, '2022-01-06', 'XO');
+INSERT INTO Albums VALUES (21, 'Planet Her', 1, 13, '2021-06-25', 'Kemosabe Records');
+INSERT INTO Albums VALUES (22, 'Mr. Morale & The Big Steppers', 3, 5, '2022-05-13', 'Interscope Records');
+INSERT INTO Albums VALUES (23, 'Pink Friday', 3, 15, '2010-11-22', 'Cash Money Records');
+INSERT INTO Albums VALUES (24, 'HEROES & VILLAINS', 3, 18, '2022-12-02', 'Republic Records');
+INSERT INTO Albums VALUES (25, 'Nopti Albe', 1, 9, '2001-01-01' ,'MediaPro Music');
+INSERT INTO Albums VALUES (26, 'We See the Same Sun', 5, 8, '1996-05-17', 'Das Studio');
+INSERT INTO Albums VALUES (27, 'Born This Way', 1, 3, '2011-05-11','Interscope Records');
+
+
+-- insert songs
+INSERT INTO Songs VALUES (1, 'Poker Face', 1, 1, 1, '00:03:57');
+INSERT INTO Songs VALUES (2, '...Baby One More Time', 2, 2, 1, '00:03:31');
+INSERT INTO Songs VALUES (3, 'Buttons', 6, 9, 1, '00:03:53');
+INSERT INTO Songs VALUES (4, 'Like A G6', 17, 4, 5, '00:03:37');
+INSERT INTO Songs VALUES (5, 'Promiscous', 16, 6, 1, '00:04:02');
+INSERT INTO Songs VALUES (6, 'Alejandro', 3, 7, 1, '00:04:34');
+INSERT INTO Songs VALUES (7, 'Blinding Lights', 2, 8, 1, '00:03:20');
+INSERT INTO Songs VALUES (8, 'Dont Cha', 6, 9, 1, '00:04:32');
+INSERT INTO Songs VALUES (9, 'Womanizer', 6, null, 1, '00:03:44');
+INSERT INTO Songs VALUES (10, 'Undeva-n Balkani', 12, null, 3, '00:04:13');
+INSERT INTO Songs VALUES (11, 'Fresh', 12, 10, 3, '00:03:33');
+INSERT INTO Songs VALUES (12, 'Vip', 12, 10, 3, '00:03:55');
+INSERT INTO Songs VALUES (13, 'Suna Periculos', 9, 25, 1, '00:03:33');
+INSERT INTO Songs VALUES (14, 'Hot', 11, 11, 5, '00:03:37');
+INSERT INTO Songs VALUES (15, 'Amazing', 11, 11, 5, '00:03:30');
+INSERT INTO Songs VALUES (16, 'Deja Vu', 11, 11, 5, '00:04:22');
+INSERT INTO Songs VALUES (17, 'Love', 11, 11, 5, '00:03:38');
+INSERT INTO Songs VALUES (18, 'California Love', 7, null, 3, '00:05:48');
+INSERT INTO Songs VALUES (19, 'Takin Back My Love', 10, null, 1, '00:03:50');
+INSERT INTO Songs VALUES (20, 'Wait A Minute', 6, 9, 1, '00:03:42');
+INSERT INTO Songs VALUES (21, 'Beep', 6, 9, 1, '00:03:49');
+INSERT INTO Songs VALUES (22, 'Da-mi noptile inapoi', 9, 25, 1, '00:04:04');
+INSERT INTO Songs VALUES (23, 'Americandrim', 12, null, 3, '00:03:29');
+INSERT INTO Songs VALUES (24, 'Maneater', 16, 6, 1, '00:04:19');
+INSERT INTO Songs VALUES (25, 'Stickwitu', 6, 9, 2, '00:03:28');
+INSERT INTO Songs VALUES (26, 'Oops!...I Did It Again', 4, 12, 1, '00:03:31');
+INSERT INTO Songs VALUES (27, 'Super Bass', 15, 23, 3, '00:03:20');
+INSERT INTO Songs VALUES (28, 'DNA.', 5, 5, 3, '00:03:06');
+INSERT INTO Songs VALUES (29, 'HUMBLE.', 5, 5, 3, '00:02:57');
+INSERT INTO Songs VALUES (30, 'Heartless', 2, 8, 2, '00:03:20');
+INSERT INTO Songs VALUES (31, 'Castle', 1, 13, 1, '00:04:38');
+INSERT INTO Songs VALUES (32, 'Hurricane', 1, 13, 6, '00:03:43');
+INSERT INTO Songs VALUES (33, 'You should be sad', 1, 14, 1, '00:03:25');
+INSERT INTO Songs VALUES (34, 'Ambitionz Az A Ridah', 7, 15, 3, '00:04:38');
+INSERT INTO Songs VALUES (35, 'All Eyez On Me', 7, 15, 3, '00:05:08');
+INSERT INTO Songs VALUES (36, 'How Do You Want It', 7, 15, 3, '00:04:48');
+INSERT INTO Songs VALUES (37, 'Say So', 13, 17, 2, '00:03:58');
+INSERT INTO Songs VALUES (38, 'I am not woman, Im a god', 1, 18, 6, '00:02:56');
+INSERT INTO Songs VALUES (39, 'Black Hole Sun', 14, 19, 6, '00:05:19');
+INSERT INTO Songs VALUES (40, 'Fell On Black Days', 14, 19, 6, '00:04:43');
+INSERT INTO Songs VALUES (41, 'Skandalouz', 7, 15, 3, '00:04:09');
+INSERT INTO Songs VALUES (42, 'Woman', 13, 21, 1, '00:02:53');
+INSERT INTO Songs VALUES (43, 'Sacrifice', 2, 20, 1, '00:03:09');
+INSERT INTO Songs VALUES (44, 'Take My Breath', 2, 20, 1, '00:05:39');
+INSERT INTO Songs VALUES (45, 'Out of Time', 2, 20, 2, '00:03:34');
+INSERT INTO Songs VALUES (46, 'Less Than Zero', 2, 20, 2, '00:03:32');
+INSERT INTO Songs VALUES (47, 'In Your Eyes', 2, 8, 2, '00:03:58');
+INSERT INTO Songs VALUES (48, 'After Hours', 2, 8, 2, '00:06:01');
+INSERT INTO Songs VALUES (49, 'Silent Hill', 5, 22, 3, '00:03:41');
+INSERT INTO Songs VALUES (50, 'Feel The Fiyaaaah', 18, 24, 3, '00:03:09');
+INSERT INTO Songs VALUES (51, 'Too Many Nights', 18, 24, 3, '00:03:20');
+INSERT INTO Songs VALUES (52, 'Superunknown', 14, 19, 4, '00:05:07');
+INSERT INTO Songs VALUES (53, 'Coco Jamboo', 8, 16, 5, '00:03:36');
+INSERT INTO Songs VALUES (54, 'Judas', 1, 27, 1, '00:04:09');
+INSERT INTO Songs VALUES (55, 'Starships', 15, 23, 3, '00:04:09');
+
+
+-- insert favorites
+
+INSERT INTO Favorite_Songs VALUES ('christina_ich', 53);
+INSERT INTO Favorite_Songs VALUES ('christina_ich', 9);
+INSERT INTO Favorite_Songs VALUES ('christina_ich', 8);
+INSERT INTO Favorite_Songs VALUES ('christina_ich', 26);
+INSERT INTO Favorite_Songs VALUES ('christina_ich', 6);
+INSERT INTO Favorite_Songs VALUES ('christina_ich', 38);
+INSERT INTO Favorite_Songs VALUES ('christina_ich', 13);
+INSERT INTO Favorite_Songs VALUES ('christina_ich', 21);
+INSERT INTO Favorite_Songs VALUES ('christina_ich', 2);
+INSERT INTO Favorite_Songs VALUES ('christina_ich', 19);
+INSERT INTO Favorite_Songs VALUES ('christina_ich', 27);
+INSERT INTO Favorite_Songs VALUES ('christina_ich', 22);
+INSERT INTO Favorite_Songs VALUES ('christina_ich', 1);
+INSERT INTO Favorite_Songs VALUES ('christina_ich', 2);
+INSERT INTO Favorite_Songs VALUES ('christina_ich', 3);
+INSERT INTO Favorite_Songs VALUES ('christina_ich', 4);
+INSERT INTO Favorite_Songs VALUES ('christina_ich', 14);
+INSERT INTO Favorite_Songs VALUES ('christina_ich', 17);
+INSERT INTO Favorite_Songs VALUES ('christina_ich', 54);
+INSERT INTO Favorite_Songs VALUES ('christina_ich', 37);
+INSERT INTO Favorite_Songs VALUES ('christina_ich', 24);
+INSERT INTO Favorite_Songs VALUES ('christina_ich', 25);
+INSERT INTO Favorite_Songs VALUES ('christina_ich', 11);
+INSERT INTO Favorite_Songs VALUES ('christina_ich', 55);
+INSERT INTO Favorite_Songs VALUES ('christina_ich', 33);
+
+INSERT INTO Favorite_Songs VALUES ('ThisIsElonMusk', 11);
+INSERT INTO Favorite_Songs VALUES ('ThisIsElonMusk', 10);
+INSERT INTO Favorite_Songs VALUES ('ThisIsElonMusk', 12);
+INSERT INTO Favorite_Songs VALUES ('ThisIsElonMusk', 13);
+INSERT INTO Favorite_Songs VALUES ('ThisIsElonMusk', 14);
+INSERT INTO Favorite_Songs VALUES ('ThisIsElonMusk', 15);
+INSERT INTO Favorite_Songs VALUES ('ThisIsElonMusk', 16);
+INSERT INTO Favorite_Songs VALUES ('ThisIsElonMusk', 17);
+INSERT INTO Favorite_Songs VALUES ('ThisIsElonMusk', 22);
+INSERT INTO Favorite_Songs VALUES ('ThisIsElonMusk', 23);
+INSERT INTO Favorite_Songs VALUES ('ThisIsElonMusk', 11);
+INSERT INTO Favorite_Songs VALUES ('ThisIsElonMusk', 53);
+
+INSERT INTO Favorite_Songs VALUES ('calcanul', 44);
+INSERT INTO Favorite_Songs VALUES ('calcanul', 47);
+INSERT INTO Favorite_Songs VALUES ('calcanul', 48);
+INSERT INTO Favorite_Songs VALUES ('calcanul', 46);
+INSERT INTO Favorite_Songs VALUES ('calcanul', 43);
+INSERT INTO Favorite_Songs VALUES ('calcanul', 49);
+INSERT INTO Favorite_Songs VALUES ('calcanul', 52);
+INSERT INTO Favorite_Songs VALUES ('calcanul', 50);
+INSERT INTO Favorite_Songs VALUES ('calcanul', 42);
+INSERT INTO Favorite_Songs VALUES ('calcanul', 41);
+INSERT INTO Favorite_Songs VALUES ('calcanul', 39);
+INSERT INTO Favorite_Songs VALUES ('calcanul', 37);
+INSERT INTO Favorite_Songs VALUES ('calcanul', 35);
+INSERT INTO Favorite_Songs VALUES ('calcanul', 34);
+INSERT INTO Favorite_Songs VALUES ('calcanul', 30);
+INSERT INTO Favorite_Songs VALUES ('calcanul', 28);
+INSERT INTO Favorite_Songs VALUES ('calcanul', 14);
+INSERT INTO Favorite_Songs VALUES ('calcanul', 17);
+INSERT INTO Favorite_Songs VALUES ('calcanul', 4);
+INSERT INTO Favorite_Songs VALUES ('calcanul', 3);
+INSERT INTO Favorite_Songs VALUES ('calcanul', 10);
+INSERT INTO Favorite_Songs VALUES ('calcanul', 11);
+
+INSERT INTO Favorite_Songs VALUES ('david1', 51);
+INSERT INTO Favorite_Songs VALUES ('david1', 50);
+INSERT INTO Favorite_Songs VALUES ('david1', 49);
+INSERT INTO Favorite_Songs VALUES ('david1', 41);
+INSERT INTO Favorite_Songs VALUES ('david1', 36);
+INSERT INTO Favorite_Songs VALUES ('david1', 35);
+INSERT INTO Favorite_Songs VALUES ('david1', 34);
+INSERT INTO Favorite_Songs VALUES ('david1', 29);
+INSERT INTO Favorite_Songs VALUES ('david1', 28);
+INSERT INTO Favorite_Songs VALUES ('david1', 23);
+INSERT INTO Favorite_Songs VALUES ('david1', 18);
+INSERT INTO Favorite_Songs VALUES ('david1', 11);
+INSERT INTO Favorite_Songs VALUES ('david1', 10);
+INSERT INTO Favorite_Songs VALUES ('david1', 26);
+INSERT INTO Favorite_Songs VALUES ('david1', 9);
+INSERT INTO Favorite_Songs VALUES ('david1', 4);
+INSERT INTO Favorite_Songs VALUES ('david1', 52);
+INSERT INTO Favorite_Songs VALUES ('david1', 39);
+
+INSERT INTO Favorite_Songs VALUES ('alinap', 7);
+INSERT INTO Favorite_Songs VALUES ('alinap', 5);
+INSERT INTO Favorite_Songs VALUES ('alinap', 22);
+INSERT INTO Favorite_Songs VALUES ('alinap', 7);
+INSERT INTO Favorite_Songs VALUES ('alinap', 19);
+INSERT INTO Favorite_Songs VALUES ('alinap', 26);
+INSERT INTO Favorite_Songs VALUES ('alinap', 27);
+INSERT INTO Favorite_Songs VALUES ('alinap', 31);
+INSERT INTO Favorite_Songs VALUES ('alinap', 32);
+INSERT INTO Favorite_Songs VALUES ('alinap', 33);
+INSERT INTO Favorite_Songs VALUES ('alinap', 37);
+INSERT INTO Favorite_Songs VALUES ('alinap', 38);
+INSERT INTO Favorite_Songs VALUES ('alinap', 46);
+INSERT INTO Favorite_Songs VALUES ('alinap', 47);
+INSERT INTO Favorite_Songs VALUES ('alinap', 54);
+INSERT INTO Favorite_Songs VALUES ('alinap', 55);
+INSERT INTO Favorite_Songs VALUES ('alinap', 19);
+
+INSERT INTO Favorite_Songs VALUES ('robert32', 3);
+INSERT INTO Favorite_Songs VALUES ('robert32', 4);
+INSERT INTO Favorite_Songs VALUES ('robert32', 5);
+INSERT INTO Favorite_Songs VALUES ('robert32', 10);
+INSERT INTO Favorite_Songs VALUES ('robert32', 11);
+INSERT INTO Favorite_Songs VALUES ('robert32', 14);
+INSERT INTO Favorite_Songs VALUES ('robert32', 28);
+INSERT INTO Favorite_Songs VALUES ('robert32', 37);
+INSERT INTO Favorite_Songs VALUES ('robert32', 53);
+INSERT INTO Favorite_Songs VALUES ('robert32', 47);
+INSERT INTO Favorite_Songs VALUES ('robert32', 24);
+INSERT INTO Favorite_Songs VALUES ('robert32', 19);
+INSERT INTO Favorite_Songs VALUES ('robert32', 22);
